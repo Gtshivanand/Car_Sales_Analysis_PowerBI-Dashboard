@@ -11,6 +11,13 @@ The Car Sales Dashboard was developed in Power BI to provide a comprehensive ove
 ## PROJECT BACKGROUND:
 The project is centred around the critical analysis of a car dealership. The report evaluates the development and implementation of a Power BI Car Sales Dashboard for the same. The dashboard aims to optimize sales performance tracking and enable data-driven decision-making. 
 
+## Business Problem:
+
+Car dealerships need an efficient way to monitor sales performance, understand customer preferences, and optimize inventory. This dashboard addresses these needs by visualizing key metrics and providing insights into sales patterns.
+
+##  Project Overview:
+
+This Power BI dashboard provides a comprehensive analysis of car sales data, offering stakeholders dynamic visualizations and key insights. The project involves data cleaning, transformation, and modeling using Power Query and DAX to enhance sales performance tracking and decision-making.
 
 ## Problem Statement:
 
@@ -30,7 +37,7 @@ Chart Requirements:
 
 The dashboard will offer real-time insights to help monitor performance, identify trends, and support data-driven decision-making.
 
-## Steps followed :
+## Project Workflow:
 
 ### Data Import and Pre-processing:
 
@@ -55,6 +62,7 @@ Week = WEEKNUM('Calendar Table'[Date])
 Connect the Calendar Table to the car sales data via the Date column.
 Use model view to establish relationships between tables.
 ![image](https://github.com/Gtshivanand/Car_Sales_Analysis_PowerBI-Dashboard/blob/main/Images/Scheme%20Diagram.png)
+
 ### Calculating KPIs with DAX:
 
 1. YTD Sales: TOTALYTD(SUM(car_data[Price ($)]), 'Calendar Table'[Date])
@@ -70,18 +78,28 @@ Use model view to establish relationships between tables.
 
 Format KPIs as needed, e.g., concatenate sales info and format in millions or thousands.
 
-### Creating Visualizations:
+###  Visualization Development:
 
 Line Chart: YTD Sales Weekly Trend.
-
 Pie Charts: YTD Sales by Body Style and Color.
 Map Chart: Sales distribution by dealer region.
 Grid Table: Company-wise sales trend and detailed car sales data.
 Area Chart: Display YTD Sales Weekly Trend with max sales point.
 Dashboard Design:
-
 Arrange KPIs at the top and detailed visualizations below.
 Add slicers for filtering by body style, color, region, and company.
+
+## Key Features:
+
+* Sales Performance Metrics: Year-to-Date (YTD), Month-to-Date (MTD), Year-over-Year (YOY) comparisons.
+
+* Advanced DAX Calculations: Implemented time intelligence functions to analyze trends.
+
+* Dynamic Visualizations: Sales trends by region, car model, body style, and color.
+
+* Interactive Filtering: Users can explore sales by different dimensions such as time, region, and car brand.
+
+* Stakeholder-Focused Reporting: Optimized reports for clear and actionable insights.
 
 
 # Snapshot of Dashboard 
@@ -165,6 +183,24 @@ The company-wise sales grid enables comparisons between different car companies 
 
 The detailed sales grid gives a deeper view into each sale, including sales amount, car model, and other key attributes, assisting in understanding customer preferences and improving sales tactics.
 
+### 🔍 Key Insights
+
+1️⃣.📈 Sales Performance
+
+YTD Sales: $371.2M  | YOY Growth: 🚀 +23.59%
+
+Best-Selling Brands: Chevrolet, Ford, Dodge
+
+Top Dealer Regions: Austin, Janesville, Scottsdale
+
+2️⃣.🚗 Customer Preferences
+
+Most Popular Body Style: SUVs (25.41%)
+
+Most Preferred Color: Pale White (46%)
+
+Highest-Priced Brand: Oldsmobile ($31.6K per unit)
+
 ## BUSINESS INSIGHTS DRAWN FROM THE DATA:
 1.	Sales Performance Trends:
 	The total YTD sales for 2023 amounted to $371.2M, reflecting a 24% increase from the previous year.
@@ -187,6 +223,14 @@ The detailed sales grid gives a deeper view into each sale, including sales amou
 6.	Revenue & Pricing Trends:
 	The YOY growth in average car prices suggests a favourable pricing strategy or increased demand for higher-priced models.
 	Competitive pricing strategies may be required for brands with lower sales to enhance market penetration.
+
+## 🏆 Business Recommendations
+
+✔ Optimize Inventory Management: Stock high-demand models & colors
+
+✔ Enhance Marketing Strategies: Target underperforming regions with promotions
+
+✔ Refine Pricing Strategies: Adjust prices based on regional demand
 
 ## CONCLUSION:
 The Car Sales Dashboard developed in Power BI provides actionable insights that empower dealerships and manufacturers to make data-driven decisions. By analysing sales trends, customer preferences, and regional performance, businesses can optimize their inventory management, enhance marketing strategies, and drive overall growth. The findings indicate strong market demand for SUVs and Hatchbacks, with Chevrolet, Ford, and Dodge leading sales. Regional insights highlight Austin and Janesville as key markets, while emerging markets like Pasco and Greenville offer growth opportunities.
