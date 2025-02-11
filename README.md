@@ -37,6 +37,7 @@ Chart Requirements:
 
 The dashboard will offer real-time insights to help monitor performance, identify trends, and support data-driven decision-making.
 
+
 ## Project Workflow:
 
 ### Data Import and Pre-processing:
@@ -203,26 +204,46 @@ Highest-Priced Brand: Oldsmobile ($31.6K per unit)
 
 ## BUSINESS INSIGHTS DRAWN FROM THE DATA:
 1.	Sales Performance Trends:
-	The total YTD sales for 2023 amounted to $371.2M, reflecting a 24% increase from the previous year.
-	The highest weekly sales were observed in the 50th week ($28M), with a significant drop in weeks 40 and 41, highlighting potential seasonal trends or market fluctuations.
+
+* The total YTD sales for 2023 amounted to $371.2M, reflecting a 24% increase from the previous year.
+
+* The highest weekly sales were observed in the 50th week ($28M), with a significant drop in weeks 40 and 41, highlighting potential seasonal trends or market fluctuations.
+
 2.	Brand & Model Performance:
-	Chevrolet leads the market with 1,043 units sold, generating $27.1M, followed by Ford ($25.4M) and Dodge ($25.0M).
-	Oldsmobile has the highest average price per vehicle ($31.6K), though it has fewer total sales (622 units).
-	Toyota and Cadillac are among the top-selling brands, with models like the Toyota Land Cruiser ($33K) contributing significantly to total revenue.
+
+* Chevrolet leads the market with 1,043 units sold, generating $27.1M, followed by Ford ($25.4M) and Dodge ($25.0M).
+
+* Oldsmobile has the highest average price per vehicle ($31.6K), though it has fewer total sales (622 units).
+
+* Toyota and Cadillac are among the top-selling brands, with models like the Toyota Land Cruiser ($33K) contributing significantly to total revenue.
+
 3.	Customer Preferences:
-	SUVs (25.41%) and Hatchbacks (24.75%) dominate sales, indicating high consumer demand.
-	Passenger and Hardtop cars have lower market shares (17% and 12.9%, respectively), presenting opportunities for growth.
-	Pale White is the most preferred car color (46% of total sales), while Red is the least popular.
+
+* SUVs (25.41%) and Hatchbacks (24.75%) dominate sales, indicating high consumer demand.
+
+* Passenger and Hardtop cars have lower market shares (17% and 12.9%, respectively), presenting opportunities for growth.
+
+ * Pale White is the most preferred car color (46% of total sales), while Red is the least popular.
+
 4.	Regional Sales Insights:
-	Austin has the highest YTD car sales, making it the strongest regional market.
-	Janesville is another key market with significant sales, while smaller markets like Pasco, Aurora, and Greenville show lower sales volumes.
-	The Southern and Midwestern regions have higher sales concentration, suggesting strong market demand in these areas.
+
+* Austin has the highest YTD car sales, making it the strongest regional market.
+
+* Janesville is another key market with significant sales, while smaller markets like Pasco, Aurora, and Greenville show lower sales volumes.
+
+* The Southern and Midwestern regions have higher sales concentration, suggesting strong market demand in these areas.
+
 5.	Inventory vs. Sales Analysis:
-	High sales in specific models and brands indicate the need for better stock management and forecasting to meet consumer demand.
-	Inventory turnover insights suggest that brands with lower sales may require targeted marketing strategies to boost performance.
+
+* High sales in specific models and brands indicate the need for better stock management and forecasting to meet consumer demand.
+
+* Inventory turnover insights suggest that brands with lower sales may require targeted marketing strategies to boost performance.
+
 6.	Revenue & Pricing Trends:
-	The YOY growth in average car prices suggests a favourable pricing strategy or increased demand for higher-priced models.
-	Competitive pricing strategies may be required for brands with lower sales to enhance market penetration.
+
+* The YOY growth in average car prices suggests a favourable pricing strategy or increased demand for higher-priced models.
+
+* Competitive pricing strategies may be required for brands with lower sales to enhance market penetration.
 
 ## 🏆 Business Recommendations
 
