@@ -1,6 +1,6 @@
 # 🚘 Car Sales Analysis Power BI Dashboard 🚘
 
-![image](https://github.com/user-attachments/assets/c6aeb6c9-6e9f-4a4c-9442-cbc317f8d88a)
+![image](https://github.com/Gtshivanand/Car_Sales_Analysis_PowerBI-Dashboard/blob/main/Images/Car%20sales%20Analysis.png)
 
 
 Analyzed car sales data using Power BI, utilizing Power Query for data cleaning and transformation. Applied DAX for advanced calculations and insights. Created interactive visualizations with time intelligence functions to track sales trends and developed dynamic reports for stakeholders to explore sales by region, model, and period.
